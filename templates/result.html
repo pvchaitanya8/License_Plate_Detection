@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Results!</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body class="result">
+    <div class="box">
+        <h1>Result for uploaded files</h1>
+        <br>
+        <h2>Total No. of Yellow plates in uploaded images: {{ yellow_plate_count }}</h2>
+        <ul class="image-list">
+            {% for filename in filenames %}
+            <li class="image-item">
+                <p>Filename: {{ filename }}</p>
+                <div class="rounded-image">
+                    <img src="{{ url_for('static', filename='output/' + filename) }}" alt="Processed Image" class="result-image">
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+        <br>
+        <a href="/"><button>Upload More Images</button></a>
+    </div>
+    <br></br>
+    <div class="box">
+        <h4>To Contact</h4>
+        <a href="mailto:venkatachaitanya373@gmail.com"><eff><p>P. V. Chaitanya</p></eff></a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>License Plate Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body class="index">
+    <br>
+    <div class="box larger-box">
+        <h1>Upload Image(s):</h1>
+        <form action="/process" method="POST" enctype="multipart/form-data">
+            <input type="file" name="file" multiple>
+            <input type="submit" value="Upload and Process">
+        </form>
+    </div>
+</body>
+</html>

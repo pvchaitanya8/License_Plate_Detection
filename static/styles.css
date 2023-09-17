@@ -1,0 +1,74 @@
+.larger-box {
+  width: 80%; 
+  max-width: 900px; 
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.box {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.95);
+  max-width: 600px;
+  margin: 0 auto;
+  transition: transform 0.3s, box-shadow 1.8s; 
+  max-width: 800px;
+}
+
+.box:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.494);
+}
+
+.box h1, .glass-container form, .glass-container a {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+body.index {
+  background-image: url('/static/back_drop/background.jpg');
+  background-size: cover;
+  background-attachment: fixed; 
+}
+
+body.result {
+  background-image: url('/static/back_drop/background_res.jpg');
+  background-size: cover;
+  background-attachment: fixed; 
+}
+
+.image-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-item {
+  margin: 10px;
+  text-align: center;
+}
+
+.result-image {
+  max-width: 100%; 
+}
+
+a {
+  text-align: center;
+  text-decoration: none;
+  color: #7f0000;
+  font-size:120%
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.rounded-image {
+  border-radius: 10px; 
+  overflow: hidden;
+}
