@@ -1,0 +1,12 @@
+numpy
+flask
+numpy
+opencv-python
+Pillow
+PyYAML
+requests
+scipy
+torch
+torchvision
+virtualenv
+pandas
