@@ -61,6 +61,8 @@ python app.py
 
 ```bash
 CTRL + C
+```
+```bash
 deactivate.bat
 ```
 
