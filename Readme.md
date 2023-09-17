@@ -37,7 +37,7 @@ python app.py
 
 ### Step 3: Upload Images
 
-- In your web browser, navigate to the provided link (or use the screenshot).
+- In your web browser.
 ![image](https://github.com/pvchaitanya8/License_Plate_Detection/assets/93573686/33e45ba1-d347-41e7-a4ff-5721d89c1aa5)
 ![image](https://github.com/pvchaitanya8/License_Plate_Detection/assets/93573686/6297405c-0f42-47e6-a621-12d78ff7efec)
 
