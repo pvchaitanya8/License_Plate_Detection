@@ -1,4 +1,4 @@
-# License Plate Detection
+# License Plate Detection [V1]
 
 Welcome to the License Plate Detection project! This brief documentation will guide you through the process of setting up and running the project for license plate detection using YOLOv5.
 
